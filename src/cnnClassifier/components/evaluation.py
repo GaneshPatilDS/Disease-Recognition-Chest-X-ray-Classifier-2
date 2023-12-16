@@ -58,5 +58,3 @@ class Evaluation:
         save_json(path=Path("scores.json"), data=scores)
 
     
-
-   
