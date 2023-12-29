@@ -31,7 +31,7 @@ class Evaluation:
         )
         
 
-        train_data_dir = os.path.join(self.config.training_data, "train")
+        train_data_dirco = os.path.join(self.config.training_data, "train")
         test_data_dir = os.path.join(self.config.training_data, "test")
         
         self.valid_generator = valid_datagenerator.flow_from_directory(
