@@ -61,4 +61,4 @@ if uploaded_file is not None:
     for i, label in enumerate(class_labels):
         probability_color = f"color: {'green' if predictions[0][i] > 0.5 else 'red'}"
         st.write(f"<span style='{probability_color}; font-weight:bold;'>{label}:</span> {predictions[0][i]:.2%}", unsafe_allow_html=True)
-# add
+#   add"""
