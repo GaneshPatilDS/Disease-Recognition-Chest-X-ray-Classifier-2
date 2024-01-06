@@ -10,13 +10,18 @@
 
 FROM python:3.8-slim-buster
 
-RUN apt update -y && apt install awscli -y
-WORKDIR /app
-
-COPY requirements.txt /app/requirements.txt
-RUN pip install -r /app/requirements.txt
-COPY . /app
-
 EXPOSE 8501
 
-CMD ["streamlit", "run", "app.py"]
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    software-properties-common \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip3 install -r requirements.txt
+
+ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
