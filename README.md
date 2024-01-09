@@ -1,10 +1,10 @@
 ##How to Run
 
-conda create -n catdog python=3.7 -y
-conda activate catdog
+conda create -n env python=3.8 -y
+conda activate env
 pip install -r requirements.txt
 python app.py
-open in browser: http://localhost:8080/
+#open in browser: http://localhost:8080/
 AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
