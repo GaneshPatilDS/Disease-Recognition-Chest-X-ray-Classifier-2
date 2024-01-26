@@ -75,4 +75,6 @@ if uploaded_file is not None:
     with st.container():
         st.markdown(f"## Prediction: **<span class='colorful-text'>{predicted_class}</span>**", unsafe_allow_html=True)
         st.write(f"Confidence Level: <span style='color:{confidence_color}; font-weight:bold;'>{np.max(predictions):.2%}</span>", unsafe_allow_html=True)
-###
+
+
+#####
