@@ -13,3 +13,6 @@ notebooks
 scripts
 .dvc
 x-ray.zip
+dvc.lock
+params.yaml
+pred_img.jpg

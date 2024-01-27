@@ -8,6 +8,7 @@ import numpy as np
 #model = tf.keras.models.load_model(r"C:\Users\Harshali\ds\Disease Recognition\artifacts\training/model.h5")
 
 model = tf.keras.models.load_model(r"C:\Users\Harshali\Downloads\Disease_Recognition\model\model.h5")
+
 # Set page title and icon
 st.set_page_config(page_title="Disease Recognition (Chest X-ray Classifier)", page_icon="🩺")
 
@@ -79,4 +80,4 @@ if uploaded_file is not None:
         st.write(f"Confidence Level: <span style='color:{confidence_color}; font-weight:bold;'>{np.max(predictions):.2%}</span>", unsafe_allow_html=True)
 
 
-# add##
+# add###
