@@ -86,13 +86,13 @@ The project uses an X-ray dataset sourced from Kaggle, containing images categor
 
 # In this flow:
 
-  # User Input (X-ray image): 
+  ### User Input (X-ray image): 
      The user provides an X-ray image for disease recognition. 
 
-  # Submit Image: 
+  ### Submit Image: 
      The input image is submitted for processing.
 
-  # Predicted Disease: 
+  ### Predicted Disease: 
      The system predicts the disease category (COVID-19, Normal, or Pneumonia) corresponding to the submitted X-ray image.
      
 -------------------------------------------------------------------------------------------------------     
@@ -115,10 +115,10 @@ The project uses an X-ray dataset sourced from Kaggle, containing images categor
 —----------------------------------------------------------------------------------------------------
 # Image Input Options:
 
-   # Browse Button: 
+   ### Browse Button: 
             Allows users to select an image from their device using a file explorer.
 
-   #  Drag and Drop:
+   ###  Drag and Drop:
             Permits users to directly drop an image file onto the specified area for seamless upload.
 
 —---------------------------------------------------------------------------------------------------
