@@ -1,5 +1,7 @@
-### Disease Recognition Using X-ray plates
-### This repository contains a project for to classify X-ray images into three categories (COVID-19, Normal, and Pneumonia). The goal of this project is to develop a Deep learning model  that Accurately classify X-ray images into three categories: COVID-19, Normal, and Pneumonia through multiclass classification. The task involves assigning each image to one of the following groups:
+# Disease Recognition Using X-ray plates
+### This repository contains a project for to classify X-ray images into three categories (COVID-19, Normal, and Pneumonia). The goal of this project is to develop a Deep learning model  that Accurately classify X-ray images into three categories: COVID-19, Normal, and Pneumonia through multiclass classification.
+
+# The task involves assigning each image to one of the following groups:
 
 
 1. COVID-19: X-ray images with manifestations of COVID-19 and associated lung abnormalities.
@@ -13,7 +15,7 @@
 ----------------------------------------------------------------------------------------------------------------
 
 
-Dataset Description:
+# Dataset Description:
 
 The project uses an X-ray dataset sourced from Kaggle, containing images categorized into COVID-19, Normal, and Pneumonia classes.
 
@@ -63,7 +65,7 @@ The project uses an X-ray dataset sourced from Kaggle, containing images categor
 
 ----------------------------------------------------------------------------------------------------------------
 
-❖User Input / Output Flow : 
+# ❖User Input / Output Flow : 
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -82,24 +84,26 @@ The project uses an X-ray dataset sourced from Kaggle, containing images categor
         |        Predicted Disease      |
        +--------------------------------------+
 
-In this flow:
+# In this flow:
 
-User Input (X-ray image): 
-The user provides an X-ray image for disease recognition. 
+  # User Input (X-ray image): 
+     The user provides an X-ray image for disease recognition. 
 
-Submit Image: 
-The input image is submitted for processing.
+  # Submit Image: 
+     The input image is submitted for processing.
 
-Predicted Disease: 
-The system predicts the disease category (COVID-19, Normal, or Pneumonia) corresponding to the submitted X-ray image.
+  # Predicted Disease: 
+     The system predicts the disease category (COVID-19, Normal, or Pneumonia) corresponding to the submitted X-ray image.
+     
+-------------------------------------------------------------------------------------------------------     
 
 ![f](https://github.com/GaneshPatilDS/Disease-Recognition-Chest-X-ray-Classifier-2/assets/123234894/35c066bf-3ee9-44f1-8338-1850b0793fda)
 
 —-----------------------------------------------------------------------------------------------------
 
-Homepage: 
+# Homepage: 
                                   
-Displays the disease recognition web app initial  interface.
+           Displays the disease recognition web app initial  interface.
 
 
 —-----------------------------------------------------------------------------------------------------
@@ -109,13 +113,13 @@ Displays the disease recognition web app initial  interface.
 
 
 —----------------------------------------------------------------------------------------------------
-Image Input Options:
+# Image Input Options:
 
-Browse Button: 
-Allows users to select an image from their device using a file explorer.
+   # Browse Button: 
+            Allows users to select an image from their device using a file explorer.
 
-Drag and Drop:
- Permits users to directly drop an image file onto the specified area for seamless upload.
+   #  Drag and Drop:
+            Permits users to directly drop an image file onto the specified area for seamless upload.
 
 —---------------------------------------------------------------------------------------------------
 
@@ -125,11 +129,11 @@ Drag and Drop:
 
 —----------------------------------------------------------------------------------------------------
 
-Image Upload: 
+# Image Upload: 
 
-Once an image is chosen, it efficiently uploads to the app's server for prompt 
+          Once an image is chosen, it efficiently uploads to the app's server for prompt 
 
-processing.
+          processing.
 
 
 —---------------------------------------------------------------------------------------------------
@@ -140,12 +144,12 @@ processing.
 
 —-----------------------------------------------------------------------------------------------------
 
-Result Screen:
+# Result Screen:
 
 
-After we upload your image successfully, the app quickly shows you the 
+          After we upload your image successfully, the app quickly shows you the 
 
-final result. It clearly tells you what disease.
+          final result. It clearly tells you what disease.
 
 
 —------------------------------------------------------------------------------------------------------------------
